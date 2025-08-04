@@ -146,23 +146,22 @@ table {
   background-color: #23253a;
   width: 80%;
   font-size: 1.1em;
-  border-collapse: collapse;
   box-shadow: 0 2px 10px rgba(44, 62, 80, 0.3);
   border-radius: 10px;
   color: aliceblue;
+  overflow: hidden;
+  border-collapse: collapse;
 }
 
 th {
-  padding: 15px;
+  padding: 10px;
   background-color: #191a1f;
   color: #f1c40f;
-  border: 1px solid #434343;
 }
 
 td {
   padding: 15px;
   color: aliceblue;
-  border: 1px solid #434343;
 }
 
 tr:hover{
